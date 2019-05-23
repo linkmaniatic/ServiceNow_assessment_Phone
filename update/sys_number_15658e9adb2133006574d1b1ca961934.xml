@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_164970_phone_phone">x_164970_phone_phone</category>
+        <maximum_digits>5</maximum_digits>
+        <number>1000</number>
+        <prefix>PHO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 13:50:38</sys_created_on>
+        <sys_id>15658e9adb2133006574d1b1ca961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PHO</sys_name>
+        <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
+        <sys_update_name>sys_number_15658e9adb2133006574d1b1ca961934</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 13:50:38</sys_updated_on>
+    </sys_number>
+</record_update>

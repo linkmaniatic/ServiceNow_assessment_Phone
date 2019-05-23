@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Phone" max_length="40" name="x_164970_phone_phone" type="collection">
-        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Model" mandatory="true" max_length="10" name="u_model" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="u_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="android" label="OS" mandatory="true" max_length="40" name="u_os" type="string">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Comments" max_length="200" name="u_comments" type="string"/>
+        <element label="Model" mandatory="true" max_length="10" name="u_model" type="string"/>
+        <element label="Name" mandatory="true" max_length="100" name="u_name" type="string"/>
+        <element choice="3" default="android" label="OS" mandatory="true" max_length="40" name="u_os" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Android" sequence="0" value="android"/>
-                <element inactive_on_update="false" label="IOS" sequence="1" value="ios"/>
-                <element inactive_on_update="false" label="Windows Phone" sequence="2" value="windows phone"/>
-                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="Android" value="android"/>
+                <element inactive_on_update="false" label="IOS" value="ios"/>
+                <element inactive_on_update="false" label="Windows" value="windows"/>
             </choice>
         </element>
-        <element label="Price" mandatory="true" max_length="40" name="u_price" type="integer"/>
+        <element label="Price" mandatory="true" max_length="15" name="u_price" type="integer"/>
     </element>
 </database>
