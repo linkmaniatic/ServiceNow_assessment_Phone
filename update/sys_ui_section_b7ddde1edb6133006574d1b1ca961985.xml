@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Technology" section_id="b7ddde1edb6133006574d1b1ca961985" sys_domain="global" table="x_164970_phone_cmdb" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_technology</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:38</sys_created_on>
+            <sys_id>78ed525edb6133006574d1b1ca9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Technology" display_value="Technology" name="x_164970_phone_cmdb" sys_domain="global" view="Default view">b7ddde1edb6133006574d1b1ca961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_speed</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:38</sys_created_on>
+            <sys_id>f8ed525edb6133006574d1b1ca9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Technology" display_value="Technology" name="x_164970_phone_cmdb" sys_domain="global" view="Default view">b7ddde1edb6133006574d1b1ca961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:38</sys_created_on>
+            <sys_id>7ced525edb6133006574d1b1ca9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Technology" display_value="Technology" name="x_164970_phone_cmdb" sys_domain="global" view="Default view">b7ddde1edb6133006574d1b1ca961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_2g</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:38</sys_created_on>
+            <sys_id>fced525edb6133006574d1b1ca9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Technology" display_value="Technology" name="x_164970_phone_cmdb" sys_domain="global" view="Default view">b7ddde1edb6133006574d1b1ca961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_3g</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:38</sys_created_on>
+            <sys_id>70ed525edb6133006574d1b1ca9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Technology" display_value="Technology" name="x_164970_phone_cmdb" sys_domain="global" view="Default view">b7ddde1edb6133006574d1b1ca961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_4g</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:38</sys_created_on>
+            <sys_id>f0ed525edb6133006574d1b1ca9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Technology" display_value="Technology" name="x_164970_phone_cmdb" sys_domain="global" view="Default view">b7ddde1edb6133006574d1b1ca961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_gprs</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:38</sys_created_on>
+            <sys_id>74ed525edb6133006574d1b1ca9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Technology" display_value="Technology" name="x_164970_phone_cmdb" sys_domain="global" view="Default view">b7ddde1edb6133006574d1b1ca961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_edge</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:38</sys_created_on>
+            <sys_id>f4ed525edb6133006574d1b1ca9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Technology" display_value="Technology" name="x_164970_phone_cmdb" sys_domain="global" view="Default view">b7ddde1edb6133006574d1b1ca961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Technology</caption>
+            <header>false</header>
+            <name>x_164970_phone_cmdb</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 15:37:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7ddde1edb6133006574d1b1ca961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Technology</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
+            <sys_update_name>sys_ui_section_b7ddde1edb6133006574d1b1ca961985</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 15:37:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

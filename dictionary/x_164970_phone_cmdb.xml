@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Phone CMDB" max_length="40" name="x_164970_phone_cmdb" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="2G Bands" mandatory="true" max_length="500" name="u_2g" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="3G Bands" mandatory="true" max_length="500" name="u_3g" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="4G Bands" mandatory="true" max_length="500" name="u_4g" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Announced" max_length="500" name="u_announced" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Audio Jack" mandatory="true" max_length="30" name="u_audio_jack" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Battery" mandatory="true" max_length="100" name="u_battery" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Brand" mandatory="true" max_length="100" name="u_brand" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Build" mandatory="true" max_length="500" name="u_build" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Card slow" mandatory="true" max_length="30" name="u_card_slot" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chipset" mandatory="true" max_length="100" name="u_chipset" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPU" mandatory="true" max_length="500" name="u_cpu" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Dimension" mandatory="true" max_length="500" name="u_dimension" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Edge" mandatory="true" max_length="500" name="u_edge" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="GPRS" mandatory="true" max_length="500" name="u_gprs" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="GPU" mandatory="true" max_length="500" name="u_gpu" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Internal" mandatory="true" max_length="400" name="u_internal" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Multitouch" max_length="500" name="u_multitouch" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="u_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OS" mandatory="true" max_length="100" name="u_os" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="500" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" mandatory="true" max_length="500" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Protecction" mandatory="true" max_length="500" name="u_protection" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolution" mandatory="true" max_length="500" name="u_resolution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SIM" mandatory="true" max_length="500" name="u_sim" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Size" mandatory="true" max_length="500" name="u_size" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Speed" mandatory="true" max_length="500" name="u_speed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stand By" mandatory="true" max_length="100" name="u_standby" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="500" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Technology" mandatory="true" max_length="500" name="u_technology" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" mandatory="true" max_length="500" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="USB" mandatory="true" max_length="40" name="u_usb" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Weight" mandatory="true" max_length="500" name="u_weight" type="string"/>
+    </element>
+</database>
