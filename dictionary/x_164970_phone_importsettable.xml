@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="ImportSetTable" max_length="40" name="x_164970_phone_importsettable" type="collection">
+        <element attributes="import_attribute_name=2G bands,edge_encryption_enabled=true" label="2G bands" max_length="115" name="u_2g_bands" type="string"/>
+        <element attributes="import_attribute_name=3G bands,edge_encryption_enabled=true" label="3G bands" max_length="155" name="u_3g_bands" type="string"/>
+        <element attributes="import_attribute_name=3.5mm jack,edge_encryption_enabled=true" label="3.5mm jack" max_length="40" name="u_3_5mm_jack" type="string"/>
+        <element attributes="import_attribute_name=4G bands,edge_encryption_enabled=true" label="4G bands" max_length="813" name="u_4g_bands" type="string"/>
+        <element attributes="import_attribute_name=Announced,edge_encryption_enabled=true" label="Announced" max_length="40" name="u_announced" type="string"/>
+        <element attributes="import_attribute_name=Battery,edge_encryption_enabled=true" label="Battery" max_length="61" name="u_battery" type="string"/>
+        <element attributes="import_attribute_name=Brand,edge_encryption_enabled=true" label="Brand" max_length="40" name="u_brand" type="string"/>
+        <element attributes="import_attribute_name=Build,edge_encryption_enabled=true" label="Build" max_length="56" name="u_build" type="string"/>
+        <element attributes="import_attribute_name=Card slot,edge_encryption_enabled=true" label="Card slot" max_length="40" name="u_card_slot" type="string"/>
+        <element attributes="import_attribute_name=Chipset,edge_encryption_enabled=true" label="Chipset" max_length="40" name="u_chipset" type="string"/>
+        <element attributes="import_attribute_name=CPU,edge_encryption_enabled=true" label="CPU" max_length="48" name="u_cpu" type="string"/>
+        <element attributes="import_attribute_name=Dimensions,edge_encryption_enabled=true" label="Dimensions" max_length="47" name="u_dimensions" type="string"/>
+        <element attributes="import_attribute_name=Edge,edge_encryption_enabled=true" label="Edge" max_length="40" name="u_edge" type="string"/>
+        <element attributes="import_attribute_name=GPRS,edge_encryption_enabled=true" label="GPRS" max_length="40" name="u_gprs" type="string"/>
+        <element attributes="import_attribute_name=GPU,edge_encryption_enabled=true" label="GPU" max_length="42" name="u_gpu" type="string"/>
+        <element attributes="import_attribute_name=Internal,edge_encryption_enabled=true" label="Internal" max_length="41" name="u_internal" type="string"/>
+        <element attributes="import_attribute_name=Multitouch" label="Multitouch" max_length="40" name="u_multitouch" type="integer"/>
+        <element attributes="import_attribute_name=Notes,edge_encryption_enabled=true" label="Notes" max_length="276" name="u_notes" type="string"/>
+        <element attributes="import_attribute_name=OS,edge_encryption_enabled=true" label="OS" max_length="40" name="u_os" type="string"/>
+        <element attributes="import_attribute_name=Other,edge_encryption_enabled=true" label="Other" max_length="98" name="u_other" type="string"/>
+        <element attributes="import_attribute_name=Other (W),edge_encryption_enabled=true" label="Other (W)" max_length="99" name="u_other__w_" type="string"/>
+        <element attributes="import_attribute_name=Phone,edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="import_attribute_name=Protection,edge_encryption_enabled=true" label="Protection" max_length="43" name="u_protection" type="string"/>
+        <element attributes="import_attribute_name=Resolution,edge_encryption_enabled=true" label="Resolution" max_length="51" name="u_resolution" type="string"/>
+        <element attributes="import_attribute_name=SIM,edge_encryption_enabled=true" label="SIM" max_length="71" name="u_sim" type="string"/>
+        <element attributes="import_attribute_name=Size,edge_encryption_enabled=true" label="Size" max_length="52" name="u_size" type="string"/>
+        <element attributes="import_attribute_name=Speed,edge_encryption_enabled=true" label="Speed" max_length="74" name="u_speed" type="string"/>
+        <element attributes="import_attribute_name=Stand by,edge_encryption_enabled=true" label="Stand by" max_length="40" name="u_stand_by" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Technology,edge_encryption_enabled=true" label="Technology" max_length="40" name="u_technology" type="string"/>
+        <element attributes="import_attribute_name=Type,edge_encryption_enabled=true" label="Type" max_length="55" name="u_type" type="string"/>
+        <element attributes="import_attribute_name=USB,edge_encryption_enabled=true" label="USB" max_length="57" name="u_usb" type="string"/>
+        <element attributes="import_attribute_name=Weight,edge_encryption_enabled=true" label="Weight" max_length="41" name="u_weight" type="string"/>
+    </element>
+</database>
