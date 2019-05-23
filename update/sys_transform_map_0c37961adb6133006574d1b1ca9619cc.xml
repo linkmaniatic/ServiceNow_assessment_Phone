@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>true</copy_empty_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Phone TM</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_164970_phone_phone_list</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 15:08:51</sys_created_on>
+        <sys_id>0c37961adb6133006574d1b1ca9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phone TM</sys_name>
+        <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
+        <sys_update_name>sys_transform_map_0c37961adb6133006574d1b1ca9619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 15:08:51</sys_updated_on>
+        <target_table>x_164970_phone_phone</target_table>
+    </sys_transform_map>
+</record_update>

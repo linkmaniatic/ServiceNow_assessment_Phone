@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Phone List" max_length="40" name="x_164970_phone_phone_list" type="collection">
+    <element extends="sys_import_set_row" label="Phone Import Table" max_length="40" name="x_164970_phone_phone_list" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="import_attribute_name=2G bands,edge_encryption_enabled=true" label="2G bands" max_length="115" name="u_2g_bands" type="string"/>
         <element attributes="import_attribute_name=3G bands,edge_encryption_enabled=true" label="3G bands" max_length="155" name="u_3g_bands" type="string"/>
         <element attributes="import_attribute_name=3.5mm jack,edge_encryption_enabled=true" label="3.5mm jack" max_length="40" name="u_3_5mm_jack" type="string"/>
