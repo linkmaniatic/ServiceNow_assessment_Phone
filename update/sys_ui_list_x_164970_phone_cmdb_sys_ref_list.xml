@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_164970_phone_cmdb" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_164970_phone_cmdb" element="NULL" name="x_164970_phone_cmdb" parent="NULL" relationship="NULL" sys_domain="global" view="f1f7227264232300aadba650cb85d47b">49e26fd6db2533006574d1b1ca961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 20:39:07</sys_created_on>
+            <sys_id>85e26fd6db2533006574d1b1ca96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 20:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_164970_phone_cmdb</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 20:39:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49e26fd6db2533006574d1b1ca961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_164970_phone_cmdb</sys_name>
+            <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
+            <sys_update_name>sys_ui_list_x_164970_phone_cmdb_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 20:39:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">f1f7227264232300aadba650cb85d47b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
