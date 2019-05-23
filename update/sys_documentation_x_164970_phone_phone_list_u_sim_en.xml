@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_sim" label="SIM" language="en" table="x_164970_phone_phone_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sim</element>
+            <help/>
+            <hint/>
+            <label>SIM</label>
+            <language>en</language>
+            <name>x_164970_phone_phone_list</name>
+            <plural>SIMs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-23 14:53:38</sys_created_on>
+            <sys_id>d0d39a56db6133006574d1b1ca961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SIM</sys_name>
+            <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
+            <sys_update_name>sys_documentation_x_164970_phone_phone_list_u_sim_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-23 14:53:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

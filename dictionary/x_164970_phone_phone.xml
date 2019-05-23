@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Phone" max_length="40" name="x_164970_phone_phone" type="collection">
+    <element label="Phone CMDB" max_length="40" name="x_164970_phone_phone" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Comments" max_length="200" name="u_comments" type="string"/>
-        <element label="Model" mandatory="true" max_length="10" name="u_model" type="string"/>
-        <element label="Name" mandatory="true" max_length="100" name="u_name" type="string"/>
-        <element choice="3" default="android" label="OS" mandatory="true" max_length="40" name="u_os" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Android" value="android"/>
-                <element inactive_on_update="false" label="IOS" value="ios"/>
-                <element inactive_on_update="false" label="Windows" value="windows"/>
-            </choice>
-        </element>
-        <element label="Price" mandatory="true" max_length="15" name="u_price" type="integer"/>
+        <element label="2G Brands" mandatory="true" max_length="1000" name="u_2g_brands" type="string"/>
+        <element label="3G Brands" mandatory="true" max_length="1000" name="u_3g_brands" type="string"/>
+        <element label="4G Brands" mandatory="true" max_length="1000" name="u_4g_brands" type="string"/>
+        <element label="Announced" max_length="1000" name="u_announced" type="string"/>
+        <element label="Audio Jack" mandatory="true" max_length="100" name="u_audio_jack" type="string"/>
+        <element label="Battery" mandatory="true" max_length="1000" name="u_battery" type="string"/>
+        <element label="Brand" mandatory="true" max_length="100" name="u_brand" type="string"/>
+        <element label="Build" max_length="1000" name="u_build" type="string"/>
+        <element label="Card Slot" mandatory="true" max_length="100" name="u_card_slot" type="string"/>
+        <element label="Chipset" mandatory="true" max_length="1000" name="u_chipset" type="string"/>
+        <element label="CPU" mandatory="true" max_length="1000" name="u_cpu" type="string"/>
+        <element label="Dimensions" max_length="1000" name="u_dimensions" type="string"/>
+        <element label="Display Protection" max_length="1000" name="u_display_protection" type="string"/>
+        <element label="Display Resolution" max_length="1000" name="u_display_resolution" type="string"/>
+        <element label="Display Size" max_length="1000" name="u_display_size" type="string"/>
+        <element label="Display Type" max_length="1000" name="u_display_type" type="string"/>
+        <element label="Edge" mandatory="true" max_length="50" name="u_edge" type="string"/>
+        <element label="GPRS" mandatory="true" max_length="1000" name="u_gprs" type="string"/>
+        <element label="GPU" mandatory="true" max_length="1000" name="u_gpu" type="string"/>
+        <element label="Internal Memory" mandatory="true" max_length="1000" name="u_internal_memory" type="string"/>
+        <element label="Notes" mandatory="true" max_length="1000" name="u_notes" type="string"/>
+        <element label="OS" mandatory="true" max_length="100" name="u_os" type="string"/>
+        <element label="Other" max_length="1000" name="u_other" type="string"/>
+        <element label="Phone" mandatory="true" max_length="100" name="u_phone" type="string"/>
+        <element label="SIM" max_length="100" name="u_sim" type="string"/>
+        <element label="Speed" mandatory="true" max_length="1000" name="u_speed" type="string"/>
+        <element label="Stand By time" max_length="1000" name="u_stand_by_time" type="string"/>
+        <element label="Status" max_length="1000" name="u_status" type="string"/>
+        <element label="Technology" mandatory="true" max_length="1000" name="u_technology" type="string"/>
+        <element label="USB" mandatory="true" max_length="100" name="u_usb" type="string"/>
+        <element label="Weight" max_length="1000" name="u_weight" type="string"/>
     </element>
 </database>
