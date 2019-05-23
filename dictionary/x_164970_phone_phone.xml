@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Phone" max_length="40" name="x_164970_phone_phone" type="collection">
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" mandatory="true" max_length="10" name="u_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="android" label="OS" mandatory="true" max_length="40" name="u_os" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Android" sequence="0" value="android"/>
+                <element inactive_on_update="false" label="IOS" sequence="1" value="ios"/>
+                <element inactive_on_update="false" label="Windows Phone" sequence="2" value="windows phone"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Price" mandatory="true" max_length="40" name="u_price" type="integer"/>
+    </element>
+</database>
