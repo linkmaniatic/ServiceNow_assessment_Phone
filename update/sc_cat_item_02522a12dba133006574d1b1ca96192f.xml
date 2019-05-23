@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <category display_value="Phone">ccd36a52dba133006574d1b1ca961986</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Request a new phone from our cmdb</p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>fbde7a12dbe133006574d1b1ca9619da</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Request Phone</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=02522a12dba133006574d1b1ca96192f&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>3202e212dba133006574d1b1ca961992,e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Request a Phone</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 15:57:56</sys_created_on>
+        <sys_id>02522a12dba133006574d1b1ca96192f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Request Phone</sys_name>
+        <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
+        <sys_update_name>sc_cat_item_02522a12dba133006574d1b1ca96192f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 18:37:21</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=02522a12dba133006574d1b1ca96192f"/>
+    <fx_price action="delete_multiple" query="id=02522a12dba133006574d1b1ca96192f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>02522a12dba133006574d1b1ca96192f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 15:57:56</sys_created_on>
+        <sys_id>1682aa12dba133006574d1b1ca961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 15:57:56</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>02522a12dba133006574d1b1ca96192f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 15:57:56</sys_created_on>
+        <sys_id>9a82aa12dba133006574d1b1ca96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 15:57:56</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>931</size_bytes>
+        <size_compressed>823</size_compressed>
+        <state/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 18:01:45</sys_created_on>
+        <sys_id>fbde7a12dbe133006574d1b1ca9619da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 18:01:45</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>02522a12dba133006574d1b1ca96192f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="fbde7a12dbe133006574d1b1ca9619da">fbde7a12dbe133006574d1b1ca9619da</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 18:01:45</sys_created_on>
+        <sys_id>f3de7a12dbe133006574d1b1ca9619db</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSD0GYgxlIcuYqeQCpzACfENf///8DmX/+/Ll06VJJScn58+f379/f2tr67NkzfX392bNnh4SEyMrKBgQEXLt27eXLlytXrqypqdm+fbuWllZ+fv7du3e/ffvm7Oy8fv16c3NzZWXlzMzMqVOnLl68WEREhJ+fPz4+3sHBobu7O8qLKZqBgemrp4tjSMWctzdfBz1yEHF9uEXoncLDd6yC9/8ryi5f1sZopJJ53q5x3dZ/z2/Mn1HCvrmno6PjRRb/zzUvPF6d/dS+rTTS7C1L5vrK3fuuur3+nXdx2Uff97/XZfBafGJsK8jgtPjI1LYhk1Wj7sicbTmMO76ytBmUs6+rbUx8r/fGkvvwOckXfwXbDMrEzt1pTXylnbNB1K8qPOuDg9wvruz12ft32b1Y+O39q8OHv26vy03cXnRtx7Ml6ezXN2bmJn597X83+lb5/oo1umvmXd36O1UyLD7iL8ufPcWJT2fu/Kdbu/hQwY5/BnOvzy9Z7bRbQMmlQ0DRqYVD8Bh3ce7mb6119pqBiX0BIkCpVU4Z4k6hHG+dVnAtjOUIVdzCvVCrpUwxpPWCXssqgVutAaKDV1H4r0PHv7XG5h4G+kgR5kUllwzVmB61xy2ti9+9d123vduk9f3lx183i7S2T2b1uyzcd17NRSA/ZoeVvOGafc/WtRx92nPs/JXbYt/0099MEuLzSvsyWajsVJuK6h8d6U+TJm0IN0uZMKkg0mzJw57bYvumnKnw8pKYp5eec1lo2p0O3/zD0uJxdR299k7xiZ+LP3++2XLs994//yuWm9Z5/an6+1dzw5sYlTU/mQ4/mL/5pc2jXxf/hy/OEN54JOBPZespdcNw/trWfMNsnsSPgSVuhdPbMr+u0ol21TPeVx6f8GT+S/9bldx79wvfq2benPNS+80v7s171Td8EY2KPbJM9u4S3oQrB9WMnp/9d8OqLDs74qU5i9/ROftmlRXce6XfE6i+4dfeZ29/7Yt+vnnR4hUVs+137RMWEhS8OPc762Qn+6liKrUrgVmNwdPVz2WdU0ITAGPHhKGjAwAA</data>
+        <length>1084</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="fbde7a12dbe133006574d1b1ca9619da">fbde7a12dbe133006574d1b1ca9619da</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 18:01:45</sys_created_on>
+        <sys_id>77de7a12dbe133006574d1b1ca9619db</sys_id>
+    </sys_attachment_doc>
+</record_update>

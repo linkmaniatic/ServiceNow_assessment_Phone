@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description>Phone catalog Items</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image>b142eadedb6133006574d1b1ca9619e5</desktop_image>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 15:56:14</sys_created_on>
+        <sys_id>3202e212dba133006574d1b1ca961992</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Phone</sys_name>
+        <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
+        <sys_update_name>sc_catalog_3202e212dba133006574d1b1ca961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 15:56:49</sys_updated_on>
+        <title>Phone</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=3202e212dba133006574d1b1ca961992"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>desktop_image</file_name>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>931</size_bytes>
+        <size_compressed>823</size_compressed>
+        <state/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 15:56:49</sys_created_on>
+        <sys_id>b142eadedb6133006574d1b1ca9619e5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 15:56:49</sys_updated_on>
+        <table_name>ZZ_YYsc_catalog</table_name>
+        <table_sys_id>3202e212dba133006574d1b1ca961992</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="desktop_image" sys_id="b142eadedb6133006574d1b1ca9619e5">b142eadedb6133006574d1b1ca9619e5</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 15:56:49</sys_created_on>
+        <sys_id>3942a612dba133006574d1b1ca961919</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSD0GYgxlIcuYqeQCpzACfENf///8DmX/+/Ll06VJJScn58+f379/f2tr67NkzfX392bNnh4SEyMrKBgQEXLt27eXLlytXrqypqdm+fbuWllZ+fv7du3e/ffvm7Oy8fv16c3NzZWXlzMzMqVOnLl68WEREhJ+fPz4+3sHBobu7O8qLKZqBgemrp4tjSMWctzdfBz1yEHF9uEXoncLDd6yC9/8ryi5f1sZopJJ53q5x3dZ/z2/Mn1HCvrmno6PjRRb/zzUvPF6d/dS+rTTS7C1L5vrK3fuuur3+nXdx2Uff97/XZfBafGJsK8jgtPjI1LYhk1Wj7sicbTmMO76ytBmUs6+rbUx8r/fGkvvwOckXfwXbDMrEzt1pTXylnbNB1K8qPOuDg9wvruz12ft32b1Y+O39q8OHv26vy03cXnRtx7Ml6ezXN2bmJn597X83+lb5/oo1umvmXd36O1UyLD7iL8ufPcWJT2fu/Kdbu/hQwY5/BnOvzy9Z7bRbQMmlQ0DRqYVD8Bh3ce7mb6119pqBiX0BIkCpVU4Z4k6hHG+dVnAtjOUIVdzCvVCrpUwxpPWCXssqgVutAaKDV1H4r0PHv7XG5h4G+kgR5kUllwzVmB61xy2ti9+9d123vduk9f3lx183i7S2T2b1uyzcd17NRSA/ZoeVvOGafc/WtRx92nPs/JXbYt/0099MEuLzSvsyWajsVJuK6h8d6U+TJm0IN0uZMKkg0mzJw57bYvumnKnw8pKYp5eec1lo2p0O3/zD0uJxdR299k7xiZ+LP3++2XLs994//yuWm9Z5/an6+1dzw5sYlTU/mQ4/mL/5pc2jXxf/hy/OEN54JOBPZespdcNw/trWfMNsnsSPgSVuhdPbMr+u0ol21TPeVx6f8GT+S/9bldx79wvfq2benPNS+80v7s171Td8EY2KPbJM9u4S3oQrB9WMnp/9d8OqLDs74qU5i9/ROftmlRXce6XfE6i+4dfeZ29/7Yt+vnnR4hUVs+137RMWEhS8OPc762Qn+6liKrUrgVmNwdPVz2WdU0ITAGPHhKGjAwAA</data>
+        <length>1084</length>
+        <position>1</position>
+        <sys_attachment display_value="desktop_image" sys_id="b142eadedb6133006574d1b1ca9619e5">b142eadedb6133006574d1b1ca9619e5</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 15:56:49</sys_created_on>
+        <sys_id>b942a612dba133006574d1b1ca961919</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request Phone">02522a12dba133006574d1b1ca96192f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-23 18:37:21</sys_created_on>
+        <sys_id>9d078f56dbe133006574d1b1ca961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Phone</sys_name>
+        <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9d078f56dbe133006574d1b1ca961964</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 18:37:21</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
