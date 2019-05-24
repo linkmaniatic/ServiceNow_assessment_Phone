@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>-Select Brand-</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -59,14 +59,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-23 16:00:34</sys_created_on>
         <sys_id>6bb26e12dba133006574d1b1ca96190c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Select Brand</sys_name>
         <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
         <sys_update_name>item_option_new_6bb26e12dba133006574d1b1ca96190c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-23 18:09:57</sys_updated_on>
+        <sys_updated_on>2019-05-24 17:20:21</sys_updated_on>
         <table/>
         <tooltip/>
         <type>18</type>

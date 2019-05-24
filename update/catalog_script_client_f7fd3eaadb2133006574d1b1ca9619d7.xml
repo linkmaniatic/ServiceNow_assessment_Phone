@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Set_Notes_Text</name>
+        <name>parameterPass</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
    if (isLoading || newValue == '') {
@@ -23,27 +23,38 @@
    }
 
    //Type appropriate comment here, and begin script below
-	var noteDisplay = u_notes.getDisplayValue();
-	g_form.setValue(notes,noteDisplay,noteDisplay);
+	g_form.clearValue('notes');
+	
+	var model_c = g_form.getValue('model');
+	
+	var ga = new GlideAjax('noteSearch');
+	ga.addParam('sysparm_name', 'noteReturn');
+	ga.addParam('sysparm_phone', model_c);
+	ga.getXML(callBack);
+	
+	function callBack(response){
+		var answer = response.responseXML.documentElement.getAttribute("u_notes");
+		g_form.setValue('notes', answer);
+	}  
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-05-23 20:56:03</sys_created_on>
+        <sys_created_on>2019-05-24 13:08:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>60066b5adb2533006574d1b1ca961915</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Set_Notes_Text</sys_name>
+        <sys_id>f7fd3eaadb2133006574d1b1ca9619d7</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>parameterPass</sys_name>
         <sys_overrides/>
         <sys_package display_value="Phone" source="x_164970_phone">8b0eed16db2133006574d1b1ca96194d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Phone">8b0eed16db2133006574d1b1ca96194d</sys_scope>
-        <sys_update_name>catalog_script_client_60066b5adb2533006574d1b1ca961915</sys_update_name>
+        <sys_update_name>catalog_script_client_f7fd3eaadb2133006574d1b1ca9619d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-23 20:56:03</sys_updated_on>
+        <sys_updated_on>2019-05-24 16:49:14</sys_updated_on>
         <table/>
         <type>onChange</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <variable_set/>
         <view/>
     </catalog_script_client>
